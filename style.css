@@ -5,12 +5,13 @@
     font-family: "Poppins", sans-serif;
   }
   
-  body {
+  body {    
     height: 100vh;
     background: url(todolist.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   
   .container {
@@ -94,4 +95,9 @@
   
   .completed {
     text-decoration: line-through;
+  }
+
+  .copy {
+      color: #41b883;
+      margin-top: 50px;
   }
